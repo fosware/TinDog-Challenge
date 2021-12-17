@@ -24,6 +24,8 @@ h2 {
 #title {
   background-color: #ff4c68;
   color: white;
+  position: relative;
+  z-index: -1;
 }
 
 /* Navigation bar */
@@ -53,16 +55,25 @@ h2 {
 }
 
 /* Title Image */
+.image-caontainer {
+  position: relative;
+  }
+
 .title-image {
   transform: rotate(25deg);
-  width: 60%;
+
+  margin-left: 5% 5%;
+  position: absolute;
+  z-index: -1;
 
 }
 
 /* Features Section */
 #features {
   padding: 7% 15% ;
-
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
 }
 
 .feature-box {
@@ -124,8 +135,7 @@ h2 {
 #pricing {
   padding: 100px;
   text-align: center;
-  /* tmp change this*/
-  width: 95%;
+
 }
 .pricing-column {
   padding: 3% 2%;
