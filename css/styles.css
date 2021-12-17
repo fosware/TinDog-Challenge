@@ -124,6 +124,8 @@ h2 {
 #pricing {
   padding: 100px;
   text-align: center;
+  /* tmp change this*/
+  width: 95%;
 }
 .pricing-column {
   padding: 3% 2%;
