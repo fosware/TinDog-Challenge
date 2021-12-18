@@ -61,8 +61,9 @@ h2 {
 
 .title-image {
   transform: rotate(25deg);
-  margin-left: 5% 5%;
+  margin-left: 20%;
   position: absolute;
+  right: 15%;
   z-index: -1;
 
 }
