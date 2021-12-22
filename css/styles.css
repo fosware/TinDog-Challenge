@@ -1,5 +1,3 @@
-
-
 body {
   /* font-family: 'Ubuntu', sans-serif; */
   font-family: 'Montserrat', sans-serif;
@@ -139,7 +137,6 @@ h2 {
 .pricing-column {
   padding: 3% 2%;
 }
-
 
 @media (max-width: 1028px) {
   .title {
