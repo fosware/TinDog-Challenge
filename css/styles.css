@@ -21,6 +21,7 @@ h2 {
   line-height: 1.5;
 }
 
+
 .title {
   background-color: #ff4c68;
   color: white;
@@ -147,4 +148,41 @@ h2 {
     position: static;
     transform: rotate(0);
   }
+}
+
+.cta {
+  background-color: #ff4c68;
+  padding: 7% 15%;
+  text-align: center;
+
+}
+
+.cta-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.5;
+  color: white;
+  text-align: center;
+}
+
+.footer {
+  background-color: #fff;
+  padding: 7% 20%;
+  text-align: center;
+  color: #8f8f8f;
+}
+
+.social {
+  color: black;
+  font-size: .8rem;
+
+}
+.social-link{
+  padding: 10px;
+}
+
+.copyright {
+  font-size: .9rem;
+  color: #8f8f8f;
 }
